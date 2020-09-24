@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "barbershop9dcb15d3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

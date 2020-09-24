@@ -1,0 +1,22 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-barbershop-dev-174408-authRole",
+      "UnauthRoleArn": "arn:aws:iam::226550808133:role/amplify-barbershop-dev-174408-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::226550808133:role/amplify-barbershop-dev-174408-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-barbershop-dev-174408-deployment",
+      "UnauthRoleName": "amplify-barbershop-dev-174408-unauthRole",
+      "StackName": "amplify-barbershop-dev-174408",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:226550808133:stack/amplify-barbershop-dev-174408/7f1355b0-fe4a-11ea-84cd-06f82009c61a",
+      "AmplifyAppId": "d2qkfrpempmdjs"
+    },
+    "categories": {
+      "auth": {
+        "barbershop9dcb15d3": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"1011380799323824\",\"client_secret\":\"b6160ce06e4941613c07f6e0e26f81cf\"},{\"ProviderName\":\"Google\",\"client_id\":\"772726788127-ce6d0p8bb7jptoegnk7umrnv5k4fvc3p.apps.googleusercontent.com\",\"client_secret\":\"99LowixEXAa2TZ8MPx-wn6W9\"}]"
+        }
+      }
+    }
+  }
+}
