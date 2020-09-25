@@ -29,7 +29,7 @@
         "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
         "UserPoolName": "barbershop9dcb15d3_userpool_9dcb15d3"
       },
-      "lastPushTimeStamp": "2020-09-25T05:21:39.032Z",
+      "lastPushTimeStamp": "2020-09-25T05:58:58.153Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-barbershop-dev-174408-deployment/amplify-cfn-templates/auth/barbershop9dcb15d3-cloudformation-template.yml",
         "logicalId": "authbarbershop9dcb15d3"
@@ -55,7 +55,7 @@
         "GraphQLAPIEndpointOutput": "https://z2djh7dpwren5fxbsai7hodyuy.appsync-api.ap-southeast-1.amazonaws.com/graphql",
         "GraphQLAPIKeyOutput": "da2-5yildw3qefhkbd2jih6huoz5ca"
       },
-      "lastPushTimeStamp": "2020-09-25T05:21:39.034Z",
+      "lastPushTimeStamp": "2020-09-25T05:58:58.156Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-barbershop-dev-174408-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apinotesapp"
