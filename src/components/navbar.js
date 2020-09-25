@@ -27,7 +27,7 @@ export default class navbar extends Component {
 
           <div className="navbar-end">
             <a href="/" className="navbar-item">
-                Home
+                Guest
             </a>
             <AmplifySignOut />
             <div className="navbar-item">
