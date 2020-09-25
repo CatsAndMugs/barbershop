@@ -1,0 +1,65 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-barbershop-dev-174408-authRole",
+      "UnauthRoleArn": "arn:aws:iam::226550808133:role/amplify-barbershop-dev-174408-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::226550808133:role/amplify-barbershop-dev-174408-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-barbershop-dev-174408-deployment",
+      "UnauthRoleName": "amplify-barbershop-dev-174408-unauthRole",
+      "StackName": "amplify-barbershop-dev-174408",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:226550808133:stack/amplify-barbershop-dev-174408/7f1355b0-fe4a-11ea-84cd-06f82009c61a",
+      "AmplifyAppId": "d2qkfrpempmdjs"
+    }
+  },
+  "auth": {
+    "barbershop9dcb15d3": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "AppClientSecret": "1d6ij00u2e2o84tjms59kcuc6delktb2q2kri5slkjkv3mu1al4t",
+        "UserPoolId": "ap-southeast-1_LOMqcreUO",
+        "AppClientIDWeb": "305nbrv9jqm24jg9iksbqost9v",
+        "AppClientID": "78iemshvanhav61ki7vuk8qfod",
+        "HostedUIDomain": "barbershop-dev",
+        "IdentityPoolId": "ap-southeast-1:973e114e-f26a-42bd-a5c8-58077b46e820",
+        "IdentityPoolName": "barbershop9dcb15d3_identitypool_9dcb15d3__dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+        "UserPoolName": "barbershop9dcb15d3_userpool_9dcb15d3"
+      },
+      "lastPushTimeStamp": "2020-09-25T05:21:39.032Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-barbershop-dev-174408-deployment/amplify-cfn-templates/auth/barbershop9dcb15d3-cloudformation-template.yml",
+        "logicalId": "authbarbershop9dcb15d3"
+      }
+    }
+  },
+  "api": {
+    "notesapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "tndexrmweve5ldp7r2pvdc6tp4",
+        "GraphQLAPIEndpointOutput": "https://z2djh7dpwren5fxbsai7hodyuy.appsync-api.ap-southeast-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-5yildw3qefhkbd2jih6huoz5ca"
+      },
+      "lastPushTimeStamp": "2020-09-25T05:21:39.034Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-barbershop-dev-174408-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      }
+    }
+  }
+}
