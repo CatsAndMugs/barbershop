@@ -2,11 +2,15 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import admin from './components/admin';
 import signin from './components/signin';
-import logo from './logo.svg'
-import './App.css'
 import Navbar from './components/navbar';
-
+import logo from './logo.svg'
+import './App.css';
+import Amplify from 'aws-amplify';
+import aws_exports from './aws-exports';
 import { Auth } from 'aws-amplify'
+Amplify.configure(aws_exports);
+
+
 
 class App extends Component {
   render() {
