@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Auth } from 'aws-amplify';
 import Amplify from 'aws-amplify';
 import config from '../aws-exports';
-import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+
 Amplify.configure(config);
 
 export default class navbar extends Component {
@@ -29,7 +29,7 @@ export default class navbar extends Component {
             <a href="/" className="navbar-item">
                 Guest
             </a>
-            <AmplifySignOut />
+
             <div className="navbar-item">
               <div className="buttons">
                 <button onClick={() => Auth.federatedSignIn()}>Sign in / Sign up</button>
