@@ -4,8 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Amplify from 'aws-amplify'
-import config from './aws-exports'
-Amplify.configure(config)
+import config from './aws-exports';
+
+Amplify.configure({
+  Auth: {
+    mandatorySignId: true,
+    region: config.aws_cognito_region,
+    userPoolId: config.aws_user_pools_id,
+    userPoolWebClientId: config.aws_user_pools_web_client_id
+  }
+})
 
 ReactDOM.render(
   <React.StrictMode>
